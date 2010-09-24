@@ -1,0 +1,2 @@
+This is meant to be a simple example of getting QUnit to run under jsTestDriver
+using the QUnitTestRunnerPlugin.
