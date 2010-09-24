@@ -1,0 +1,3 @@
+[submodule "QUnitTestRunnerPlugin"]
+	path = QUnitTestRunnerPlugin
+	url = git://github.com/jivesoftware/QUnitTestRunnerPlugin.git
