@@ -8,7 +8,7 @@ Some commands to get this all running:
 * cd qunit-jsTestDriver
 * git submodule init
 * git submodule update
-* java -jar JsTestDriver.jar --config jsTestDriver.conf --port 9876
+* java -jar JsTestDriver.jar --config jsTestDriver.conf --port 9876 &
 * Navigate to http://localhost:9876
 * java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
 * java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
@@ -18,3 +18,11 @@ pick up the first run & will report:
     Total 0 tests (Passed: 0; Fails: 0; Errors: 0) (0.00 ms)
 when in fact it should report:
     Total 1 tests (Passed: 1; Fails: 0; Errors: 0) (0.00 ms)
+
+
+Thanks to Julian Birch for suggesting the '&' on the server setup.
+It's definitely nicer to have it in the background initially, but remember
+    fg
+to pull it out so you can
+    Ctrl+c
+to kill the server.
