@@ -4,14 +4,14 @@ using the QUnitTestRunnerPlugin.
 JsTestDriver.jar is the trunk build. At the moment, 1.2.2 does not work correctly.
 
 Some commands to get this all running:
-* git clone git://github.com/jc00ke/qunit-jsTestDriver.git
-* cd qunit-jsTestDriver
-* git submodule init
-* git submodule update
-* java -jar JsTestDriver.jar --config jsTestDriver.conf --port 9876 &
-* Navigate to http://localhost:9876
-* java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
-* java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
+    git clone git://github.com/jc00ke/qunit-jsTestDriver.git
+    cd qunit-jsTestDriver
+    git submodule init
+    git submodule update
+    java -jar JsTestDriver.jar --config jsTestDriver.conf --port 9876 &
+Navigate to http://localhost:9876 in your browser
+    java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
+    java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
 
 Note that you may have to run that last line twice. For some reason JsTestDriver may not
 pick up the first run & will report:
