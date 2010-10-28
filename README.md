@@ -1,5 +1,5 @@
 This is meant to be a simple example of getting QUnit to run under jsTestDriver
-using the QUnitTestRunnerPlugin.
+using the QUnitTestRunnerPlugin by [Jesse Hallett](http://github.com/hallettj).
 
 JsTestDriver.jar is the trunk build. At the moment, 1.2.2 does not work correctly.
 
@@ -20,7 +20,7 @@ when in fact it should report:
     Total 1 tests (Passed: 1; Fails: 0; Errors: 0) (0.00 ms)
 
 
-Thanks to Julian Birch for suggesting the '&' on the server setup.
+Thanks to [Julian Birch](http://github.com/JulianBirch) for suggesting the '&' on the server setup.
 It's definitely nicer to have it in the background initially, but remember
     fg
 to pull it out so you can
