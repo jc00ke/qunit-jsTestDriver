@@ -1,5 +1,6 @@
 This is meant to be a simple example of getting QUnit to run under jsTestDriver
-using the QUnitTestRunnerPlugin by [Jesse Hallett](http://github.com/hallettj).
+using the [QUnitTestRunnerPlugin](http://github.com/jivesoftware/QUnitTestRunnerPlugin)
+by [Jesse Hallett](http://github.com/hallettj).
 
 JsTestDriver.jar is the trunk build. At the moment, 1.2.2 does not work correctly.
 
