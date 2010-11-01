@@ -11,8 +11,8 @@ Some commands to get this all running:
     git submodule update
     java -jar JsTestDriver.jar --config jsTestDriver.conf --port 9876 &
 Navigate to http://localhost:9876 in your browser
-    java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
-    java --jar JsTestDriver.jar --config jsTestDriver.conf --tests all
+    java -jar JsTestDriver.jar --config jsTestDriver.conf --tests all
+    java -jar JsTestDriver.jar --config jsTestDriver.conf --tests all
 
 Note that you may have to run that last line twice. For some reason JsTestDriver may not
 pick up the first run & will report:
